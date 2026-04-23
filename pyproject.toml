@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "cdfi-val"
+version = "0.1.0"
+description = "Python valuation toolkit for CDFIs and Minority Depository Institutions"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=1.4.0",
+    "numpy>=1.21.0",
+]
